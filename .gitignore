@@ -1,0 +1,15 @@
+# Local data — never commit exports or generated databases
+data/
+
+# Python
+.venv/
+__pycache__/
+*.pyc
+*.egg-info/
+
+# Secrets
+.env
+
+# OS / editor noise
+*:Zone.Identifier
+.DS_Store

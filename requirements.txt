@@ -1,0 +1,2 @@
+mychatarchive @ git+https://github.com/1ch1n/mychatarchive.git@46ac45e08b664960a7bc9befa0257faf2d50d78a
+anthropic>=0.45.0
