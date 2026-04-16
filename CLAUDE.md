@@ -16,7 +16,7 @@ Personal self-analysis engine: build a personal knowledge base and behavioral an
 
 - **Use mychatarchive** (`1ch1n/mychatarchive`) for ingestion. Don't reimplement ChatGPT export parsing — it already handles tree-structured JSON, dedup, FTS5, and vector storage.
 - **Python everywhere, no Go.** See ADR-1 in the PRD.
-- **Claude Batch API for bulk LLM work**, not the real-time API. See ADR-3.
+- **Claude Batch API for bulk classification; subscription for wiki compilation below plan limits.** See ADR-3 and STATE.md Session 16/21 decisions for rationale.
 - **SQLite + Markdown, not Postgres.** See ADR-1.
 - **Evidence-first.** Answers must trace to source chunks, not wiki summaries.
 - See ADR-1..ADR-4 in `docs/personal-kb-final.md` section 1 for full rationale before overriding any of the above.
